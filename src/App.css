@@ -1,38 +1,71 @@
-.App {
+.container{
+  font-family: monospace;
+}
+
+.container {
+  background-color: #f8d030;
+  width: 300px;
+  min-height: 400px;
+  padding: 20px;
+
+}
+
+.title {
   text-align: center;
+  font-size: x-large;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.input {
+  padding: 5px;
+  word-wrap: break-word;
+  border: 1px solid black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.button {
+  width: 100%;
+  height: 40px;
+  font-family: monospace;
+  background-color: white;
+  border: 1px solid black;
+  margin-top: 10px;
+  padding: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.button:hover {
+  background-color: #f2f2f2;
+}
+
+.checkbox-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+  margin-bottom: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.checkbox {
+  display: flex;
+  justify-content: space-between;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.check {
+  width: 20px;
+  height: 20px;
+
+}
+
+.label {
+  font-size: large;
+  font-weight: bold;
+}
+
+.slider-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.password {
+  font-size: large;
 }
